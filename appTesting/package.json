@@ -1,0 +1,25 @@
+{
+  "name": "apptesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/appium-service": "^6.1.16",
+    "@wdio/cli": "^6.1.16",
+    "tesseract.js": "^2.1.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.1.16",
+    "@wdio/mocha-framework": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "selenium-standalone": "^6.17.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}
